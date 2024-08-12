@@ -23,4 +23,5 @@ if input_text:
             stream=True,
         ):
         response = message.choices[0].delta.content, end=""
-        st.write("Bot:", response)
+        
+    st.write("Bot:", response)
